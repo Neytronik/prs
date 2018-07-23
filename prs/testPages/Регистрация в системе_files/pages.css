@@ -1,0 +1,516 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 14px;
+    color: #333;
+    background: #ffffff;
+}
+.container {
+    max-width: 1170px !important;
+}
+
+.label-form {
+    word-wrap: break-word; 
+    white-space: pre-wrap;
+}
+
+.page {
+    min-height: 93%;
+}
+
+* html .page {
+    min-height: 93%;
+}
+
+.footer-guarantor {
+    min-height: 6.5em;
+    clear: both;
+}
+
+.font-size90{
+    font-size: 90% !important;
+}
+
+.app-info-panel {
+    width: 23%;
+}
+
+.col_command{
+    width:16px !important;
+    text-align:center !important;;
+    font-size: 90% !important;;
+}
+
+.page-footer {
+    height: 7%;
+    font-weight: 700;
+}
+
+body {
+    font-family: ​Arial;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+label {
+    color: #333;
+    white-space: nowrap;
+    padding: 0;
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.form-group {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1 {
+    color: #00529c;
+    font-size: 20px;
+    font-family: Arial;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+th.ui-state-default  {
+    background-color: #00529c;
+    background-image: none;
+    text-align: left;
+    color: white;
+    text-align: left !important;
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+th.ui-state-default td.ui-state-default {
+	border: none;
+}
+
+th.ui-datatable  {
+    padding: 4px 10px;
+    overflow: hidden;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    text-align: left;
+}
+
+.ui-datatable table {
+    font-weight: 400;
+}
+
+.ui-paginator {
+    border: none;
+}
+
+.ui-inputfield { 
+    width: 100%;
+}
+
+.ui-column-title {
+   font-weight: 700;
+   text-align: left;
+}
+
+.ui-datatable thead th, .ui-datatable tbody td, .ui-datatable tfoot td, .ui-datatable tfoot th {
+    border: none;
+    border-bottom: 1px #bbb solid;
+    height: 35px;
+    font-size: 13px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    xbackground-color: white;
+    background-image: none;
+    border-color: #a8a8a8;
+    background-image: none;
+    text-shadow: none;
+    box-shadow: none;
+    color: #555;
+}
+
+div.ui-widget-header {
+    background: white;
+    text-shadow: none;
+}
+
+.ui-state-active .ui-tabs-selected, .ui-widget-header .ui-state-active {
+    background: #00529c repeat scroll 0 0 !important;
+    color: white !important;
+}
+
+.ui-accordion .ui-accordion-header {
+    background: #00529c repeat scroll 0 0 !important;
+    color: white;
+}
+
+.ui-state-disabled {
+    color: #333 !important;
+}
+
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    background-color: white;
+}
+
+.ui-widget {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.bottom {
+    border: 0;
+    border-radius: 0;
+    background-color: white !important;
+    color: #555;
+}
+
+.bottom-border {
+    border-top: 1px solid #777 !important;
+}
+
+.main-content {
+    min-height: 700px;
+}
+
+.ui-menu, .ui-menu .ui-menu-child {
+    background: white none repeat scroll 0 0;
+    color: white;
+}
+
+.ui-menu .ui-menu-parent .ui-menu-child {
+    width: 15em;
+}
+
+.ui-menu .ui-menuitem-link {
+    font-weight: 700 !important;
+    font-size: 16px;
+}
+
+.ui-menu .ui-menuitem-text {
+    font-weight: 700;
+    font-family: Arial;
+}
+
+.menu {
+    border: 0;
+    border-radius: 0;
+    font-size: 16px;
+    background: #00529c none repeat scroll 0 0 !important;
+    width: 100% !important;
+}
+
+.menu-border {
+    border-bottom: 2px solid #2072bc;
+}
+
+.ui-menu.ui-menubar {
+    border: none;
+    background: inherit;
+    background-image: none;
+    box-shadow: none;
+    filter: none;
+}
+
+.ui-datatable-odd {
+    background: #fffff4 none repeat scroll 0 0 !important;
+}
+
+.ui-menuitem-active {
+    color: #00529c;
+    background-color: white;
+    border-radius: none;
+    border: none;
+}
+
+.ui-widget-content a {
+    color: #00529c;
+}
+
+.ui-menu.ui-widget a {
+    color: #00529c;
+}
+
+.ui-menuitem-icon .ui-menu-parent {
+    color: white;
+}
+
+.ui-menu.ui-widget li > .ui-menuitem-link {
+    background-color: inherit;
+}
+
+.ui-calendar {
+    width: 100%;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    background-color: #eaeaea;
+}
+
+.ui-datepicker-today > a {
+    background-color: #ffffd0 !important;
+    border: 1px dotted !important;
+    color: #880 !important;
+}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+    xbackground-image: none;
+}
+
+a.ui-submenu-link > span.ui-menuitem-text, a.ui-submenu-link > span.fa-caret-down {
+    color: white;
+}
+
+.ui-widget-content .ui-icon {
+    xbackground-image: none;
+}
+
+a.ui-state-hover, a.ui-widget-content a.ui-state-hover, a.ui-widget-header a.ui-state-hover, a.ui-state-focus, .a.ui-widget-content a.ui-state-focus, .a.ui-widget-header .a.ui-state-focus {
+    background: #4092dc none repeat scroll 0 0 !important;
+    border: none;
+    border-radius: 0;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.ui-button {
+    background-color: #f0f0f0;
+    font-family: inherit !important;
+}
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    color: #00529c !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    color: white !important;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    color: white !important;
+    background-color: #4092dc !important;
+}
+
+.ui-tabs.ui-tabs-top {
+    border-bottom: none;
+}
+
+.btn-group {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-text {
+    color: white !important;
+    padding-top: 7px;
+}
+
+.logout {
+    float: right;
+    padding-left: 5px;
+}
+
+.empty-menu-item {
+    width: 20px !important;
+}
+
+.addon-info {
+    opacity: 1 !important;
+    color: #777 !important;
+}
+
+.logo {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.disabled-masked-input {
+    border: none !important;
+    opacity: 0.8 !important;
+    background: inherit !important;
+}
+
+.without-spaces {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.main-block {
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: none !important;
+    border: 1px solid #dddddd !important;
+}
+
+.sub-block {
+    border: none;
+    border-radius: none;
+}
+
+.ui-panel .ui-panel-titlebar {
+    background: #00529c;
+    padding: 0.5em 1em 0.3em;
+    color: white;
+}
+
+.ui-menu.ui-widget .ui-menuitem-link .ui-menuitem-text {
+   font-size: 15px;
+}
+
+.ui-panelgrid .ui-panelgrid-cell {
+      padding: 4px 1px;
+      vertical-align: top;
+}
+.ui-selectonemenu .ui-selectonemenu-trigger {
+ width: 27px;
+}
+
+.download-image-link {
+    padding-left: 5px;
+}
+
+.img-not-required {
+    opacity: 0;
+}
+
+.ui-layout-south {
+    border: none !important;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.text-align-right {
+    text-align: right !important;
+}
+
+.clear-border {
+    border: 0;
+}
+
+.clear-border > div {
+    border: 0;
+}
+
+.clear-border > tbody > tr {
+    border: 0;
+}
+
+.clear-border > tbody > tr > td {
+    border: 0 !important;
+    padding: 0 0 !important;
+}
+
+.error-info {
+    color: red;
+}
+
+.width20 {
+    width: 20%;
+}
+
+
+.width30 {
+    width: 30%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.width900px {
+    width:900px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+div .ui-inputfield.ui-state-error, div .ui-state-error {
+    border: 1px solid #ff0000 !important;
+}
+
+.ui-radiobutton-box, .ui-chckbox-box {
+    background: white !important;
+}
+
+.ui-radiobutton-icon {
+    margin: 0 !important;
+}
+
+.ui-state-highlight .ui-icon {
+    background-image: url(/nfo/javax.faces.resource/images/ui-icons_333333_256x240.png.jsf?ln=primefaces-bootstrap) !important;
+}
+
+.ui-icon-bullet {
+    background-position: -80px -145px;
+}
+
+.ui-radiobutton {
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+.ui-radiobutton .ui-radiobutton-box {
+    height: 17px;
+    width: 17px;
+}
+
+.filter-item {
+    margin-bottom: 2px;
+    width: 265px;
+}
+
+.ui-fileupload-files {
+    font-size: 0 !important;
+}
+
+.GOOD{
+    background-color : green !important;
+}
+
+.BAD{
+    background-color: red !important;
+}
+
+.MEDIUM{
+    background-color: yellow !important;
+}
+
+.hide-column-names table thead tr {
+    display: none;
+}
+.BLACK{
+    background-color: black !important;
+    color: white !important;
+}
+.BLUE{
+    background-color: blue !important;
+    color: white !important;
+}
+.WHITE{
+    background-color: white !important;
+}
+.YELLOW{
+    background-color: yellow !important;
+}
+.CENTER_BOLD{
+    text-align: center !important;
+    font-size: medium !important;
+    font-weight: bold !important;
+}
